@@ -7,7 +7,7 @@
 }
 
 body{
-    background:url('https://images.unsplash.com/photo-1621274403997-37aace184f49?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1');
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
     background-repeat: no-repeat;
     background-size:cover;
     overflow:hidden;
@@ -18,6 +18,22 @@ body{
 .container{
     padding: 20px 70px;
     color:#fff;
+}
+.btn {
+    padding: 10px 10px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+.btn:hover {
+    background: #fff;
+    color: #000;
 }
 
 .current-info{
